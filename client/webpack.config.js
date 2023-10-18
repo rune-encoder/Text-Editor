@@ -39,14 +39,14 @@ module.exports = () => {
         inject: true,
         name: "Ultimate Text Editor",
         short_name: "Editor",
-        description: "A simple text editor",
+        description: "The Ultimate Text Editor",
         background_color: "#19c0cc",
         theme_color: "#000000",
         start_url: "./",
         publicPath: "./",
         icons: [
           {
-            src: path.resolve("favicon.ico"),
+            src: path.resolve("src/images/logo.png"),
             sizes: [96, 128, 192, 256, 384, 512],
             destination: path.join("assets", "icons"),
           },
@@ -61,15 +61,17 @@ module.exports = () => {
           use: ["style-loader", "css-loader"],
         },
         {
-          test: /\.js$/,
-          exclude: /(node_modules|bower_components)/,
-          use: "babel-loader",
-          options: {
-            presets: ["@babel/preset-env"],
-            plugins: [
-              "@bablel/plugin-proposal-object-rest-spread",
-              "@babel/plugin-transform-runtime",
-            ],
+          test: /\.m?js$/,
+          exclude: /node_modules/,
+          use: {
+            loader: "babel-loader",
+            options: {
+              presets: ["@babel/preset-env"],
+              plugins: [
+                "@babel/plugin-proposal-object-rest-spread",
+                "@babel/transform-runtime",
+              ],
+            },
           },
         },
       ],
