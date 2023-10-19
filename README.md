@@ -11,6 +11,7 @@
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
+
 </p>
 
 ## Description
@@ -22,6 +23,10 @@ Welcome to the Ultimate Text Editor project! This is a browser-based text editor
 The text editor not only allows you to _create and manage notes and code snippets_ but _also makes certain your data is always available_, whether you have an internet connection or not. You are also able to _install the app locally_ and use it even when not connected to the internet.
 
 This project incorporates the use of various web technologies, including Progressive Web App (PWA), IndexedDB for data storage, Webpack for bundling, and a service worker for caching assets.
+
+> **Installed PWA Example:**
+
+![Installed Application](./assets/Installed-App.png)
 
 ## Table of Contents
 
@@ -52,7 +57,7 @@ To run this application locally, follow these steps:
    **_OR_**
 2. Follow the _installation instructions_ and run it locally.
 
-> **_Finally, here are some ways to use this application_**
+> **_Finally, here are some ways to use this application..._**
 
 1. **Create and Edit your "Notes" or "Code Snippets":**
 
@@ -62,7 +67,7 @@ To run this application locally, follow these steps:
 
 2. **Installing as a Progressive Web App:**
 
-   - If you want to have quick access to the _Ultimate Text Editor_ on your desktop just like a regular app, you can install it as a Progressive Web App by clicking the _"Install"_ button on the top left corner. You will then be prompted to install the application.
+   - If you want to have quick access to the _Ultimate Text Editor_ on your desktop just like a regular app, you can install it by clicking the _"Install"_ button on the top left corner. You will then be prompted to install the application.
 
    - Now, you can launch the _Ultimate Text Editor_ directly from your desktop or home screen like any other application.
 
@@ -80,6 +85,10 @@ To run this application locally, follow these steps:
 - **Babel**: Transpiles code to utilize modern ES6+ JavaScript features.
 - **PWA Integration**: Allows installation as a Progressive Web Application.
 - **Server and Development Tools**: Includes Express, Concurrently, and Nodemon for server development and monitoring.
+
+> **IndexDB Example:**
+
+![IndexDB Example](./assets/IndexDB.png)
 
 ## Contributing
 
@@ -101,15 +110,8 @@ Please refer to the LICENSE in the repository.
 
 ## Credits and Questions
 
-**If you have any questions you may reach me at my email: [cont_rune_encoder@outlook.com](mailto:cont_rune_encoder@outlook.com)**
-
 **Here is a link to my Github Profile: [Profile Link: rune-encoder](https://github.com/rune-encoder)**
 
 **If you would like to check out my other projects visit this link: [Projects Link: rune-encoder](https://github.com/rune-encoder?tab=repositories)**
 
-<br> <p align="center">
-[![Rune-Encoder-Logo](./assets/ᚱuᚢeEᚢcᛟdeᚱ.svg)](https://github.com/rune-encoder?tab=repositories)
-
 ---
-
-## Application Screenshots
