@@ -32,8 +32,6 @@ warmStrategyCache({
 
 registerRoute(({ request }) => request.mode === "navigate", pageCache);
 
-// TODO: Implement asset caching
-
 // Register route for Cache CSS and JS files using the StaleWhileRevalidate strategy.
 registerRoute(
   ({ request }) => {
