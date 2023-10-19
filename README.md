@@ -36,7 +36,6 @@ This project incorporates the use of various web technologies, including Progres
 - [Contributing](#contributing)
 - [License](#license)
 - [Credits and Questions](#credits-and-questions)
-- [Application Screenshots](#application-screenshots)
 
 ## Installation
 
